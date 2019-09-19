@@ -1,0 +1,20 @@
+Graded 9/18 by Mark Congdon
+
+Total Score:		25/25
+
+Compiles and Runs:	15/15
+Correct Output:		6/6
+Consistent Style:	2/2
+Efficiency:			2/2
+
+Good work!  Your program is very clean and well-organized.
+
+Great job with your comments, too.  Well done.
+
+There is one efficiency that could be added.  Notice that
+every time you call malt(), you call house() immediately afterwards.
+Therefore, you could add house() at the end of your malt() method, and
+remove it from the verse methods.  Then, you could do the same thing
+with rat() (add malt() at the end of it), etc.  Your verse7() function,
+then, would have just your first printed line, and the cow()
+method, and everything else would happen automatically.
